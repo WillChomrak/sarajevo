@@ -1,0 +1,314 @@
+/* color
+Purple:
+522888
+66369D
+967BB6
+CDC7D9
+Gold:
+BF9553
+B97F24
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 230%;
+  font-weight: 100;
+  margin-bottom: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 170%;
+  font-weight: 150;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2:after {
+  display: block;
+  content: " ";
+  width: 150px;
+  background-color: #66369D;
+  height: 2px;
+  margin: 30px auto 40px auto;
+}
+
+h3 {
+
+  font-size: 120%;
+  font-weight: 90;
+  margin: 10px 0;
+}
+
+/* REUSABLE */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.map {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* BUTTON */
+
+.button,
+input[type=submit] {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 30px;
+  border-radius: 50px;
+  vertical-align: center;
+  color: #fff;
+}
+
+.button:link,
+.button:visited,
+input[type=submit] {
+  background-color: #66369D;
+  border: 2px solid #66369D;
+}
+
+.button:hover,
+.button:active,
+input[type=submit]:hover {
+  background-color: #522888;
+  border: 2px solid #522888;
+}
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bridge2-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.head-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+/* MAIN MENU */
+
+.main-nav {
+  display: block;
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 120%;
+  text-transform: uppercase;
+}
+
+.main-nav li a {
+   text-decoration: none;
+   color: #fff;
+   padding-bottom: 5px;
+}
+
+.main-nav li a:hover {
+  border-bottom: 2px solid #66369D;
+}
+
+/* STICKY MENU */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  color: black;
+  font-size: 80%;
+  box-shadow: 0 2px 2px #e8e8e8;
+  z-index: 9999;
+}
+
+.sticky ul {
+  margin: 7px 50px 7px 0;
+}
+
+.sticky ul li a {
+  color: black;
+}
+
+.sticky .main-nav li a:hover {
+  border-bottom: 2px solid #be85ff;
+}
+
+/* MOBILE MENU */
+
+.mobile-nav-icon {
+  display: none;
+  float: right;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 130%;
+}
+
+.mobile-nav-icon i {
+  color: #fff;
+}
+
+/* SIGHTS */
+
+.box img {
+  width: 96%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* FOOD */
+
+.food-section {
+  background-color: #f0f0f0;
+}
+
+/* SO FAR */
+
+.so-far {
+  padding-bottom: 0;
+}
+
+.so-far-list {
+  width: 100%;
+}
+
+.so-far-list li {
+  display: block;
+  float: left;
+  width: 25%;
+  height: auto;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.so-far-list li img {
+  width: 100%;
+  opacity: 0.7;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.so-far-list li img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+/* CONTACT FORM */
+
+.contact {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact input[type=text],
+.contact input[type=email],
+.contact textarea,
+.contact label {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+input[type=select] {
+  width: 15%;
+}
+
+*:focus {outline: none;}
+
+/* FOOTER */
+
+footer {
+  background-color: #1f1e1e;
+  padding: 40px;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.footer-nav li a {
+  color: #737373;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright {
+  float: right;
+}
+
+/* ANIMATIONS */
+.js--animate-1,
+.js--animate-2 {
+  opacity: 0;
+}
+
+.js--animate-1.animated,
+.js--animate-2.animated {
+  opacity: 1;
+}

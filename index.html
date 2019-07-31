@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Will's guide to Sarajevo</title>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <script src="https://kit.fontawesome.com/f5aa4d4f2b.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main-nav js--main-nav">
+          <li><a class="js--scroll-to-sights" href="#">Sights</a></li>
+          <li><a class="js--scroll-to-food" href="#food">Food</a></li>
+          <li><a class="js--scroll-to-pictures" href="#so-far">Pictures</a></li>
+          <li><a class="js--scroll-to-contact" href="#contact">Contact Me</a></li>
+        </ul>
+        <a class='mobile-nav-icon js--nav-icon'><i class="fas fa-bars"></i></a>
+        <!--<a class='mobile-nav-icon'><i class="fas fa-times"></i></a>-->
+      </nav>
+      <div class="head-text-box">
+        <h1>What do I want</br>to do in Sarajevo?</h1>
+        <a class="button js--scroll-to-sights" href="#">Find out</a>
+      </div>
+    </header>
+    <section class="sights-section js--sights-section" id='sights'>
+      <div class="row">
+        <h2>top 3 Sights</h2>
+      </div>
+      <div class="row js--animate-1">
+        <div class="col span-1-of-3 box">
+          <img src="resources/img/sights/bridge.jpg" alt="latin-bridge">
+          <h3>Latin Bridge</h3>
+          <p class="long-copy">This 16th Century Ottoman bridge is the site of the event that sparked the first World War. The assasination of the Archduke Franz Ferdinand.</p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <img src="resources/img/sights/cable.jpg" alt="trebevic-mountain">
+          <h3>Trebevic mountain</h3>
+          <p class="long-copy">The location of many of the 1984 Olympic events such as bobsledding, this was a major battleground in the 1992 - 1995 Bosnian War. Beware undetonated landmines.</p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <img src="resources/img/sights/shops.jpg" alt="bascarsija">
+          <h3>Bascarsija</h3>
+          <p class="long-copy">Bascarsija is Sarajevo's old bazaar. Built in the 15th century when the town was founded, it is the historic and cultural center of the town. </p>
+        </div>
+      </div>
+      <div class="map sights-map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1Uw7jYEeNM7e1SaMNg_y_885JV-ud00rK" style="pointer-events:none"; width="100%" height="480"></iframe>
+      </div>
+    </section>
+    <section class="food-section js--food-section" id='food'>
+      <div class="row">
+        <h2>Top 3 foods</h2>
+      </div>
+      <div class="row js--animate-2">
+        <div class="col span-1-of-3 box">
+          <img src="resources/img/food/cevapi.jpg">
+          <h3>Cevapi</h3>
+          <p class="long-copy">This grilled minced meat dish is served with a pita, chopped onions, and cream cheese. Cevapi is a national dish of Bosnia.</p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <img src="resources/img/food/dolma.jpg">
+          <h3>Dolma</h3>
+          <p class="long-copy">Dolma is meat or rice stuffed into eggplant, zucchini, or bell peppers. Meat dolma comes with a lemon-based sauce, while rice dolma is served with a garlic-based sauce.</p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <img src="resources/img/food/begova.jpg">
+          <h3>Begova Corba</h3>
+          <p class="long-copy">Begova Corba is a traditional soup made of chicken and vegetables. It is typically served as an appetizer.</p>
+        </div>
+      </div>
+    </section>
+    <section class="so-far js--pictures-section" id='so-far'>
+      <div class="row">
+        <h2>Pictures so far</h2>
+      </div>
+      <ul class="so-far-list clearfix">
+          <li><img src="resources/img/so_far/800/street2.jpg"></li>
+          <li><img src="resources/img/so_far/800/cevapi.jpg"></li>
+          <li><img src="resources/img/so_far/800/river.jpg"></li>
+          <li><img src="resources/img/so_far/800/road.jpg"></li>
+      </ul>
+      <ul class="so-far-list clearfix">
+          <li><img src="resources/img/so_far/800/alley.jpg"></li>
+          <li><img src="resources/img/so_far/800/mosque-me.jpg"></li>
+          <li><img src="resources/img/so_far/800/square.jpg"></li>
+          <li><img src="resources/img/so_far/800/mosque2.jpg"></li>
+      </ul>
+      <ul class="so-far-list clearfix">
+          <li><img src="resources/img/so_far/800/5.jpg"></li>
+          <li><img src="resources/img/so_far/800/6.jpg"></li>
+          <li><img src="resources/img/so_far/800/8.jpg"></li>
+          <li><img src="resources/img/so_far/800/9.jpg"></li>
+      </ul>
+    </section>
+    <section class="contact js--contact-section" id='contact'>
+      <div class="row">
+        <h2>Contact me</h2>
+      </div>
+        <form class="contact-form" action="https://formspree.io/wchomrak@gmail.com" method="POST">
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Name</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="text" name="name" id="name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Email</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="email" name="email" id="email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Leave me a message</label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input class="submit-btn" type="submit" value="Send it!">
+            </div>
+          </div>
+        </form>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col span-2-of-3">
+          <ul class="footer-nav">
+            <li><a class="js--scroll-to-sights" href="#">Sights</a></li>
+            <li><a class="js--scroll-to-food" href="#food">Food</a></li>
+            <li><a class="js--scroll-to-pictures" href="#so-far">Pictures</a></li>
+            <li><a class="js--scroll-to-contact" href="#contact">Contact Me</a></li>
+            <li><i class="fab fa-instagram"></i></li>
+          </ul>
+        </div>
+        <div class="col span-1-of-3">
+          <p class="copyright">Made by Will Chomrak</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+  </body>
+</html>
